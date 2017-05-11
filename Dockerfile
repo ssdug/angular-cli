@@ -10,5 +10,3 @@ RUN npm install -g @angular/cli
 
 VOLUME "$BUILD_SRC_DIR/"
 WORKDIR $BUILD_SRC_DIR
-
-ENTRYPOINT "sh"
